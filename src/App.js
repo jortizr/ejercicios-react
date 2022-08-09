@@ -18,15 +18,14 @@ function App() {
 			<nav id='menu'>
 				<ul>
 					<li><a href='http://'>Home</a></li>
-					<li><a class='dropdown-arrow' href='http://'>Exercise</a>
-						<ul class='sub-menus'>
+					<li><a className='dropdown-arrow' href='http://'>Exercise</a>
+						<ul className='sub-menus'>
 							<li><a href='http://'>Calculator</a></li>
 							<li><a href='http://'>Products 2</a></li>
 							<li><a href='http://'>Products 3</a></li>
 							<li><a href='http://'>Products 4</a></li>
 						</ul>
 					</li>
-					<li><a href='http://'>Contact Us</a></li>
 				</ul>
 			</nav>
 
