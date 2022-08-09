@@ -17,7 +17,7 @@ function App() {
     <div className="App">
 			<nav id='menu'>
 				<ul>
-					<li><a href='http://'>Home</a></li>
+					<li><a href='/'>Home</a></li>
 					<li><a className='dropdown-arrow' href='http://'>Exercise</a>
 						<ul className='sub-menus'>
 							<li><a href='http://'>Calculator</a></li>
@@ -32,6 +32,8 @@ function App() {
 			<br></br>
 			<header></header>
       <h1>Here is what our alumni say about freeCodeCamp:</h1>
+      {/* reto, traer los testimonios desde otro archivo como objeto tipo lista,
+      arreglar los alt por si quieres agg o eliminar testimonios*/}
       <Testimonio
       nombre='Shawn Wang'
       pais='Singapore'

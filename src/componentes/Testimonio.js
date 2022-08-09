@@ -9,9 +9,7 @@ import '../css/Testimonio.css';
 // }
 
 function Testimonio(props){
-  
   return(
-    
     <div className='contenedor-testimonio'>
         <img
           className='img-testimonio'
